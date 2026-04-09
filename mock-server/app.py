@@ -4,7 +4,9 @@ import os
 from pathlib import Path
 
 app = Flask(__name__)
-
+# //code from development branch1
+# //code from development branch2
+# //code from development branch
 # Load customer data from JSON file
 DATA_DIR = Path(__file__).parent / 'data'
 CUSTOMERS_FILE = DATA_DIR / 'customers.json'
